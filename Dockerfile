@@ -5,7 +5,7 @@ MAINTAINER john.wang <wywincl@gmail.com>
 #=========================================
 # Install robotframework and library.
 #=========================================
-RUN pip install -U robotframework==3.0.4 \
+RUN pip install -U robotframework \
 && pip install -U robotframework-seleniumlibrary \
 && pip install --upgrade RESTinstance \
 && pip install -U requests \
